@@ -390,9 +390,9 @@ function App() {
       </div>
       <Router>
         <Route path='/'></Route>
-        <Route path='/About'></Route>
-        <Route path='/Contact'></Route>
-        <Route path='/Projects'></Route>
+        <Route path='/About'><About /></Route>
+        <Route path='/Contact'><Contact /></Route>
+        <Route path='/Projects'><Projects /></Route>
 
       </Router>
     </div>
