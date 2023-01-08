@@ -7,8 +7,7 @@ import logogit from './İmages/logogit.png'
 import About from './components/About'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
-import { Routes, Route, Link, Navlink } from 'react-router-dom'
-
+import { Router, Route, Link, Navlink, Switch } from 'react-router-dom'
 
 
 import './App.css'
@@ -27,18 +26,18 @@ function App() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" href="#">Home</a>
+                <Link className="nav-link active" to="/">Home</Link>
               </li>
               <li>
-                <a className="nav-link active" aria-current="page" href="#">About</a>
+                <Link className="nav-link active" aria-current="page" to="/About">About</Link>
 
               </li>
               <li>
-                <a className="nav-link active" aria-current="page" href="#">Projects</a>
+                <Link className="nav-link active" aria-current="page" to="/Projects">Projects</Link>
 
               </li>
               <li>
-                <a className="nav-link active" aria-current="page" href="#">Contact</a>
+                <Link className="nav-link active" aria-current="page" to="/Contact">Contact</Link>
               </li>
             </ul>
             <input style={{ width: "500px", backgroundColor: "#FFFAEB" }} className="form-control me-2   " type="search" placeholder='Search' />
@@ -389,6 +388,13 @@ function App() {
         </footer>
 
       </div>
+      <Router>
+        <Route path='/'></Route>
+        <Route path='/About'></Route>
+        <Route path='/Contact'></Route>
+        <Route path='/Projects'></Route>
+
+      </Router>
     </div>
 
 
