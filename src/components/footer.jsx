@@ -1,13 +1,12 @@
 import React from 'react'
-
-
+import '../App.css'
 
 export default function Footer() {
   return (
     <div>
-      <footer class="footer" >
+      <footer  >
         <article >
-          <p  >&copy; <span id="date"></span> Furkan Apaydın. all rights reserved</p>
+          <p className='d-flex justify-content-center ' >&copy; <span id="date"></span> Furkan Apaydın. all rights reserved</p>
 
           <div>
             <ul className='d-flex justify-content-center ' >

@@ -6,67 +6,57 @@ import '../App.css'
 export default function Contact() {
   return (
 
-    <div>
+    <div >
       <Header />
-      <div>
-        <form className='form-control-sm'>
+      <div className='contact'>
 
-          <div class="row mb-4 form-control-sm">
-            <div class="col">
-              <div class="form-outline">
-                <input type="text" id="form6Example1" class="form-control" />
-                <label class="form-label" for="form6Example1">First name</label>
-              </div>
-            </div>
-            <div class="col">
-              <div class="form-outline">
-                <input type="text" id="form6Example2" class="form-control" />
-                <label class="form-label" for="form6Example2">Last name</label>
-              </div>
-            </div>
+        <form>
+
+
+
+
+          <div class="form-outline mb-4 ">
+            <input style={{ width: "80vh" }} type="text" id="form6Example3" class="form-control" placeholder='Name' />
+
           </div>
 
 
           <div class="form-outline mb-4">
-            <input type="text" id="form6Example3" class="form-control" />
-            <label class="form-label" for="form6Example3">Company name</label>
+            <input type="text" id="form6Example4" class="form-control" placeholder='Last Name ' />
+
           </div>
 
 
           <div class="form-outline mb-4">
-            <input type="text" id="form6Example4" class="form-control" />
-            <label class="form-label" for="form6Example4">Address</label>
+            <input type="email" id="form6Example5" class="form-control" placeholder='Email' />
+
           </div>
 
 
           <div class="form-outline mb-4">
-            <input type="email" id="form6Example5" class="form-control" />
-            <label class="form-label" for="form6Example5">Email</label>
+            <input type="number" id="form6Example6" class="form-control" placeholder='Phone' />
+
           </div>
 
 
           <div class="form-outline mb-4">
-            <input type="number" id="form6Example6" class="form-control" />
-            <label class="form-label" for="form6Example6">Phone</label>
-          </div>
+            <textarea class="form-control" id="form6Example7" rows="4" placeholder='Explanation'></textarea>
 
-
-          <div class="form-outline mb-4">
-            <textarea class="form-control" id="form6Example7" rows="4"></textarea>
-            <label class="form-label" for="form6Example7">Additional information</label>
           </div>
 
 
           <div class="form-check d-flex justify-content-center mb-4">
-            <input class="form-check-input me-2" type="checkbox" value="" id="form6Example8" checked />
-            <label class="form-check-label" for="form6Example8"> Create an account? </label>
+
+
+            <button className='' type="submit" class="btn btn-primary btn-block mb-4">Place order</button>
           </div>
 
 
-          <button type="submit" class="btn btn-primary btn-block mb-4">Place order</button>
+
         </form>
-        <Footer />
       </div>
-    </div >
+
+      <Footer />
+    </div>
   )
 }

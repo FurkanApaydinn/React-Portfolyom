@@ -289,3 +289,10 @@ Footer
   
   text-transform: capitalize;
 }
+
+.contact{
+  display: flex;
+  justify-content:center;
+  min-height: 100vh;
+  max-width: 300vh;
+}
