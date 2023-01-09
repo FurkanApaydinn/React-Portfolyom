@@ -8,14 +8,12 @@ export default function Contact() {
 
     <div >
       <Header />
+      <h1 className='baslik'>Contact</h1>
       <div className='contact'>
 
+
         <form>
-
-
-
-
-          <div class="form-outline mb-4 ">
+          <div class="form-outline mb-4  ">
             <input style={{ width: "80vh" }} type="text" id="form6Example3" class="form-control" placeholder='Name' />
 
           </div>

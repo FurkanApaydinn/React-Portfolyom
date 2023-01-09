@@ -291,8 +291,14 @@ Footer
 }
 
 .contact{
+  margin-top: 50px;
   display: flex;
   justify-content:center;
-  min-height: 100vh;
+  min-height: 80vh;
   max-width: 300vh;
+}
+.baslik{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
