@@ -25,15 +25,16 @@ export default function Header() {
 
        </li>
        <li>
-        <Link className="nav-link active" aria-current="page" to="/Projects">Projects</Link>
+        <Link className="nav-link active" aria-current="page" to="/Certificate">Certificate</Link>
 
        </li>
+
+
        <li>
         <Link className="nav-link active" aria-current="page" to="/Contact">Contact</Link>
        </li>
       </ul>
-      <input style={{ width: "500px", backgroundColor: "#FFFAEB" }} className="form-control me-2   " type="search" placeholder='Search' />
-      <button className="btn btn-outline-success" type="submit" style={{ backgroundColor: "#FFFAEB" }}>Search</button>
+
      </div>
     </div>
    </nav>

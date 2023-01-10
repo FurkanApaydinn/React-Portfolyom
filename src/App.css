@@ -285,8 +285,6 @@ Footer
 }
 
 .footer p {
-  
-  
   text-transform: capitalize;
 }
 
@@ -301,4 +299,40 @@ Footer
   margin-top: 50px;
   display: flex;
   justify-content: center;
+}
+
+.baslikabout{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.section-center {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  /* width: 90vw; */
+  margin: 50px auto;
+  /* max-width: 1170px; */
+  min-height: 80vh;
+}
+.page-info {
+  max-width: 700px;
+}
+.Certificate{
+  margin-top: 5%;
+  min-height: 80vh;
+  
+}
+.Certificates{
+  margin-top: 2%;
+  display: flex;
+  justify-content:center;
+}
+
+.card:hover{
+  
+  border: 1px solid black;
+   border-radius: 20%;
+   background-color: white;
+   opacity: 0.9;
+   
 }

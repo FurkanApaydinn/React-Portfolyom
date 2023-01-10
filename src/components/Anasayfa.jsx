@@ -4,16 +4,17 @@ import logo2 from '../İmages/logo.png'
 import jslogo from '../İmages/jslogo.png'
 import foto from '../İmages/FurkanApaydın.jpg'
 import logogit from '../İmages/logogit.png'
+import css from '../İmages/css.webp'
 import About from '../components/About'
-import Projects from '../components/Projects'
+import Certificate from './Certificate'
 import Contact from '../components/Contact'
+import Header from '../components/header'
 import { Routes, Route, Link, Navlink, BrowserRouter } from 'react-router-dom'
-import '../App.css'
+import '../App'
 function Anasayfa() {
   return (
 
     <div className="App">
-
       <nav className="navbar navbar-expand-lg " style={{ backgroundColor: "#FFFAEB", fontWeight: "bold" }}>
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
@@ -33,25 +34,25 @@ function Anasayfa() {
 
               </li>
               <li>
-                <Link className="nav-link active" aria-current="page" to="/Projects">Projects</Link>
+                <Link className="nav-link active" aria-current="page" to="/Certificate">Certificate</Link>
 
               </li>
+
               <li>
                 <Link className="nav-link active" aria-current="page" to="/Contact">Contact</Link>
               </li>
             </ul>
             <input style={{ width: "500px", backgroundColor: "#FFFAEB" }} className="form-control me-2   " type="search" placeholder='Search' />
-            <button className="btn btn-outline-success" type="submit" style={{ backgroundColor: "#FFFAEB" }}>Search</button>
+            <button className="btn btn-outline-warning" type="submit" >Search</button>
           </div>
         </div>
       </nav>
-
       <div class='container mt-1 d-flex p-2 justify-content-center' >
         <article>
           <div className='mt-3 '>
             <h1 className='mb-4'>Furkan Apaydın</h1>
-            <h6 className='mb-4 mb-2'>İş Analisti / Developer</h6>
-            <a href="#" className='btn btn-outline-success mt-2' style={{ backgroundColor: "#E9B949", color: "black" }}> Daha fazla</a>
+            <h6 className='mb-4 mb-2' style={{ fontWeight: "bold" }}>İş Analisti / Developer</h6>
+            <Link to="/About" className='btn btn-outline-warning mt-2'> Daha fazla</Link>
 
 
           </div>
@@ -155,6 +156,24 @@ function Anasayfa() {
 
 
           </article>
+          <article className='d-flex  justify-content-center' style={{ height: "100px" }}>
+            <h6 className='p-0'>Soap UI</h6>
+            <div className='progress ms-2 mt-1 ' style={{ width: "25%", height: "12px" }} >
+              <div className='progress-bar progress-bar-striped' role="progressbar" style={{ width: "70%", backgroundColor: "#E9B949" }} aria-valuenow="5" aria-valuemin="5" aria-valuemax="50" >
+
+
+              </div>
+            </div>
+            <h6 className='p-0 ms-5'>Postman</h6>
+            <div className='progress ms-2  mt-1 ' style={{ width: "25%", height: "12px" }} >
+              <div className='progress-bar progress-bar-striped' role="progressbar" style={{ width: "60%", backgroundColor: "#E9B949" }} aria-valuenow="5" aria-valuemin="5" aria-valuemax="50" >
+
+
+              </div>
+            </div>
+
+
+          </article>
           <section class="section1" style={{ backgroundColor: "#FFFAEB" }} >
 
             <div class="section-title" >
@@ -165,9 +184,10 @@ function Anasayfa() {
             <div class="section-center timeline-center">
 
               <article class="timeline-item">
-                <h4>2022</h4>
-                <p>
-                  <h4>Demirören Medya / Proje Yöneticisi ve İş Analisti uzmanı</h4>
+                <h4>2022 - Devam ediyor </h4>
+                <h3 style={{ fontWeight: "bold" }} >Demirören Medya A.Ş </h3>
+                <h4 style={{ fontWeight: "normal" }} >Proje Yöneticisi ve İş Analisti Uzmanı</h4>
+                <p style={{ fontWeight: "normal" }}>
 
                 </p>
                 <span class="number">
@@ -176,32 +196,15 @@ function Anasayfa() {
               </article>
 
               <article class="timeline-item">
-                <h4>2021</h4>
-                <p>
-                  <h4>Turgut Aydın Holding / İş Analisti</h4>
-
-                  ş Akışı, İş ve Süreç Geliştirme, Mobil
-                  Projeler,
-                  Kurumsal iş akış sisteminin geliştirilmesi,
-                  (mağaza açılış süreci, masraf süreci, izin
-                  süreci vb., kampanya süreci, perakende
-                  süreçleri) SAP entegrasyonu yönetme,
-                  Şirket stratejileri doğrultusunda süreç
-                  tasarımı projelerinde yer almak; Öncelikli,
-                  tanımlanabilir, ölçülebilir, tekrarlanabilir,
-                  kontrol edilebilir, kullanıcı odaklı ve katma
-                  değerli süreç tasarımı,
-                  Kullanıcı odaklı süreç gereksinimlerini
-                  belirlemek ve buna hizmet edecek iş
-                  kurallarını tanımlamak, toplanan verilerin
-                  detaylı bir şekilde analizi (Maliyet, kalite ve
-                  kullanıcı deneyimi) ,
-                  Süreç boyunca danışmanların organize
-                  edilmesi, karar ve aksiyon noktalarının
-                  belirlenmesi ve takibi, İş birimleri ile
-                  koordinasyon ve analiz desteği sağlanması.
-                  Support ekibine Prod geçişi sonrası destek
-                  verilmesi,
+                <h4>2021-2022</h4>
+                <h3 style={{ fontWeight: "bold" }} >Turgut Aydın Holding </h3>
+                <h4 style={{ fontWeight: "normal" }} >İş Analisti</h4>
+                <p style={{ fontWeight: "normal" }}>
+                  İş Akışı, İş ve Süreç Geliştirme, Mobil Projeler,(JavaScript,Xml]
+                  Kurumsal iş akış süreçlerini yönettiğimiz tool'da ön yüz tasarımı yaparak formların hazırlanması, onay adımlarını ve kuralları oluşturduğumuz admin panelinde JavaScript ve xml ile kod yazımı,(mağaza açılış süreci, masraf süreci, izin süreci vb., kampanya süreci, perakende süreçleri) SAP entegrasyonu yönetme,
+                  Şirket stratejileri doğrultusunda süreç tasarımı projelerinde yer almak; Öncelikli, tanımlanabilir, ölçülebilir, tekrarlanabilir, kontrol edilebilir, kullanıcı odaklı ve katma değerli süreç tasarımı,
+                  Kullanıcı odaklı süreç gereksinimlerini belirlemek ve buna hizmet edecek iş kurallarını tanımlamak, toplanan verilerin detaylı bir şekilde analizi (Maliyet, kalite ve kullanıcı deneyimi) ,
+                  Süreç boyunca danışmanların organize edilmesi, karar ve aksiyon noktalarının belirlenmesi ve takibi, İş birimleri ile koordinasyon ve analiz desteği sağlanması. Support ekibine Prod geçişi sonrası destek verilmesi,
 
                 </p>
                 <span class="number">
@@ -210,11 +213,11 @@ function Anasayfa() {
               </article>
 
               <article class="timeline-item">
-                <h4>2018</h4>
-                <p>
-                  <h4>Bahçeşehir Koleji IT sorumlusu / İş Analisti</h4>
-
-                  Derse girmenin yanı sıra, tüm
+                <h4>2018-2021</h4>
+                <h3 style={{ fontWeight: "bold" }} >Bahçeşehir Eğitim Kurumları A.Ş</h3>
+                <h4 style={{ fontWeight: "normal" }} >IT Sorumlusu ve İş Analisti Uzman Yardımcısı</h4>
+                <p style={{ fontWeight: "normal" }}>
+                  Tüm
                   kampüslerimizde kullanılan eğitim içeriklerini
                   yönettiğimiz ve E- Öğrenme modüllerinin yer
                   aldığı Metodbox uygulaması için Kampüs
@@ -235,9 +238,9 @@ function Anasayfa() {
               </article>
 
               <article class="timeline-item">
-                <h4>2016</h4>
-                <p>
-                  <h4>BİL Koleji / Bilişim Teknolojileri Öğretmeni</h4>
+                <h4>2016 - 2018</h4>
+                <h4 style={{ fontWeight: "bold" }} >Bahçeşehir Eğitim Kurumları A.Ş</h4>
+                <p style={{ fontWeight: "normal" }}>
 
                 </p>
                 <span class="number">
@@ -271,7 +274,7 @@ function Anasayfa() {
                       <p class="card-text">
                         React Axios ile .api üzerinden veri çekme
                       </p>
-                      <a style={{ marginTop: "20px" }} href="https://furkanapaydinn.github.io/React-Axios-vericekme/" class="btn btn-primary">Tıkla</a>
+                      <a style={{ marginTop: "20px" }} href="https://furkanapaydinn.github.io/React-Axios-vericekme/" class="btn btn-outline-warning">Tıkla</a>
                     </div>
 
                   </div>
@@ -289,7 +292,7 @@ function Anasayfa() {
                       <p class="card-text">
                         Dom yapısı ile sayı tahmin oyunu
                       </p>
-                      <a style={{ marginTop: "30px" }} href="https://github.com/FurkanApaydinn/SayiTahminOyunu" class="btn btn-primary">Tıkla</a>
+                      <a style={{ marginTop: "30px" }} href="https://github.com/FurkanApaydinn/SayiTahminOyunu" class="btn btn-outline-warning">Tıkla</a>
                     </div>
 
                   </div>
@@ -310,7 +313,7 @@ function Anasayfa() {
                       <p class="card-text">
                         Axios ile Türkiye covid verilerinin olduğu .api servisinden verileri çekerek tablo üzerinde gösterimi
                       </p>
-                      <a href="https://furkanapaydinn.github.io/React-Axios-uygulama/" class="btn btn-primary">Tıkla</a>
+                      <a href="https://furkanapaydinn.github.io/React-Axios-uygulama/" class="btn btn-outline-warning">Tıkla</a>
                     </div>
                   </div>
                 </div>
@@ -326,10 +329,27 @@ function Anasayfa() {
                       <p class="card-text">
                         JS ile hazırladığım ve dom yapısını kullandığım zart atma oyunu
                       </p>
-                      <a href="https://furkanapaydinn.github.io/SayiTahminOyunu/" class="btn btn-primary">Tıkla</a>
+                      <a href="https://furkanapaydinn.github.io/SayiTahminOyunu/" class="btn btn-outline-warning">Tıkla</a>
                     </div>
                   </div>
                 </div>
+                <div class="col-lg-3 d-lg-block justify-content-center  " style={{ marginTop: "30px" }} >
+                  <div class="card">
+                    <img style={{ paddingLeft: "auto", paddingRight: "auto", Width: "40%", height: "250px" }}
+                      src={css}
+                      class="card-img-top mt-3"
+                      alt="Sunset Over the Sea"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title" >Açılabilir kartlıklar</h5>
+                      <p class="card-text mb-3">
+                        Expandig-Cards
+                      </p>
+                      <a href="https://furkanapaydinn.github.io/expanding-cards/" class="btn btn-outline-warning">Tıkla</a>
+                    </div>
+                  </div>
+                </div>
+
                 <div class="col-lg-3 d-lg-block justify-content-center  " style={{ marginTop: "30px" }} >
                   <div class="card">
                     <img style={{ paddingLeft: "auto", paddingRight: "auto", Width: "40%", height: "250px" }}
@@ -342,7 +362,7 @@ function Anasayfa() {
                       <p class="card-text">
                         Diğer Projelerim ve çalışmalarım için 👇👇
                       </p>
-                      <a href="https://github.com/FurkanApaydinn?tab=repositories" class="btn btn-primary">Tıkla</a>
+                      <a href="https://github.com/FurkanApaydinn?tab=repositories" class="btn btn-outline-warning">Tıkla</a>
                     </div>
                   </div>
                 </div>
@@ -391,7 +411,7 @@ function Anasayfa() {
 
 
 
-    </div>
+    </div >
 
 
 

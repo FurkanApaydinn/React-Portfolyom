@@ -1,16 +1,30 @@
 import React from 'react'
-
-// import logo from './İmages/logo4.png'
+import logo2 from '../İmages/logo.png'
 // import logo2 from './İmages/logo.png'
-// import jslogo from './İmages/jslogo.png'
-// import foto from './İmages/FurkanApaydın.jpg'
-// import logogit from './İmages/logogit.png'
+import Header from '../components/header'
+import Footer from '../components/footer'
+import { Routes, Route, Link, Navlink, BrowserRouter } from 'react-router-dom'
+import cv from '../FurkanApaydin.pdf'
+
+
 import '..//App.css'
 
 export default function About() {
+
   return (
-    <div>
-      <h1>naber</h1>
-    </div>
+
+    <div >
+      <Header />
+      <h1 className='baslikabout'>About</h1>
+      <div className='section-center page-info' >
+        <p>
+          Hello, I'm Furkan and I'm a web developer. I was born in 1992 in Istanbul/Ümraniye. I live and work in Istanbul. I spend most of my day experimenting with HTML, CSS, and JavaScript (and an endless list of frames). I love coding and the challenge of learning something new every day. My resume is below.<br></br>
+          <a download href={cv}><button className="btn btn-outline-warning mt-3" type="submit" >CV indir</button></a>
+
+        </p>
+
+      </div>
+      <Footer />
+    </div >
   )
 }
