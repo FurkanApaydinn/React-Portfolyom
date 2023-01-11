@@ -10,7 +10,7 @@ export default function Contact() {
       <Header />
       <h1 className='baslik'>Contact</h1>
 
-      <div className='contact'>
+      <div className='contact' style={{ width: "90%" }}>
 
 
         <form action='mailto:furkan_apydn@hotmail.com'>
