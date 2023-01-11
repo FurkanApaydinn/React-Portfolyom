@@ -292,7 +292,7 @@ function Anasayfa() {
                       <p class="card-text">
                         Dom yapısı ile sayı tahmin oyunu
                       </p>
-                      <a style={{ marginTop: "30px" }} href="https://github.com/FurkanApaydinn/SayiTahminOyunu" class="btn btn-outline-warning">Tıkla</a>
+                      <a style={{ marginTop: "30px" }} href="https://furkanapaydinn.github.io/SayiTahminOyunu/" class="btn btn-outline-warning">Tıkla</a>
                     </div>
 
                   </div>
@@ -329,7 +329,7 @@ function Anasayfa() {
                       <p class="card-text">
                         JS ile hazırladığım ve dom yapısını kullandığım zart atma oyunu
                       </p>
-                      <a href="https://furkanapaydinn.github.io/SayiTahminOyunu/" class="btn btn-outline-warning">Tıkla</a>
+                      <a href="https://furkanapaydinn.github.io/ZarAtmaOyunu/" class="btn btn-outline-warning">Tıkla</a>
                     </div>
                   </div>
                 </div>
