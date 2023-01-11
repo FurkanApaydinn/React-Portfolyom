@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/React-Portfolyom/static/css/main.6233578f.css",
+    "main.js": "/React-Portfolyom/static/js/main.718079db.js",
+    "static/media/logo.png": "/React-Portfolyom/static/media/logo.8a6fc0a24a800d1e0f4a.png",
+    "static/media/FurkanApaydin.pdf": "/React-Portfolyom/static/media/FurkanApaydin.358e4e0a3e9fadf99d77.pdf",
+    "static/media/logo4.png": "/React-Portfolyom/static/media/logo4.3a23f58b985ebccf782f.png",
+    "static/media/jslogo.png": "/React-Portfolyom/static/media/jslogo.96a13af0147433eded9b.png",
+    "static/media/FurkanApaydın.jpg": "/React-Portfolyom/static/media/FurkanApaydın.a2e10be997d8dd853c7a.jpg",
+    "static/media/logogit.png": "/React-Portfolyom/static/media/logogit.7c8f7736007664c4b0ba.png",
+    "static/media/css.webp": "/React-Portfolyom/static/media/css.19f1fb6438863fa75266.webp",
+    "index.html": "/React-Portfolyom/index.html",
+    "main.6233578f.css.map": "/React-Portfolyom/static/css/main.6233578f.css.map",
+    "main.718079db.js.map": "/React-Portfolyom/static/js/main.718079db.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6233578f.css",
+    "static/js/main.718079db.js"
+  ]
+}
