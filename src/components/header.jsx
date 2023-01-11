@@ -33,8 +33,7 @@ export default function Header() {
         <Link className="nav-link active" aria-current="page" to="/Contact">Contact</Link>
        </li>
       </ul>
-      <input style={{ width: "500px", backgroundColor: "#FFFAEB" }} className="form-control me-2   " type="search" placeholder='Search' />
-      <button className="btn btn-outline-warning" type="submit" >Search</button>
+
      </div>
     </div>
    </nav>
