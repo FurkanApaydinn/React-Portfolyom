@@ -10,50 +10,50 @@ export default function Contact() {
       <Header />
       <h1 className='baslik'>Contact</h1>
 
-      <div className='contact' style={{ width: "100%" }}>
+      <div className='contact' >
+        <div className='contacts'>
+
+          <form action='mailto:furkan_apydn@hotmail.com'>
+            <h6 className='baslik mb-4 justify-content-start'>Benimle iletişime geçebilirsiniz.</h6>
+            <div class="form-outline mb-4  ">
+              <input style={{ width: "200%" }} type="text" id="form6Example3" class="form-control" placeholder='Name' required />
+            </div>
 
 
-        <form action='mailto:furkan_apydn@hotmail.com'>
-          <h6 className='baslik mb-4 justify-content-start'>Benimle iletişime geçebilirsiniz.</h6>
-          <div class="form-outline mb-4  ">
-            <input style={{ width: "80vh" }} type="text" id="form6Example3" class="form-control" placeholder='Name' required />
+            <div class="form-outline mb-4">
+              <input style={{ width: "200%" }} type="text" id="form6Example4" class="form-control" placeholder='Last Name ' required />
 
-          </div>
+            </div>
 
 
-          <div class="form-outline mb-4">
-            <input type="text" id="form6Example4" class="form-control" placeholder='Last Name ' required />
+            <div class="form-outline mb-4">
+              <input style={{ width: "200%" }} type="email" id="form6Example5" class="form-control" placeholder='Email' required />
 
-          </div>
-
-
-          <div class="form-outline mb-4">
-            <input type="email" id="form6Example5" class="form-control" placeholder='Email' required />
-
-          </div>
+            </div>
 
 
-          <div class="form-outline mb-4">
-            <input type="number" id="form6Example6" class="form-control" placeholder='Phone' required />
+            <div class="form-outline mb-4">
+              <input style={{ width: "200%" }} type="number" id="form6Example6" class="form-control" placeholder='Phone' required />
 
-          </div>
-
-
-          <div class="form-outline mb-4">
-            <textarea class="form-control" id="form6Example7" rows="4" placeholder='Explanation'></textarea>
-
-          </div>
+            </div>
 
 
-          <div class="form-check d-flex justify-content-center mb-4">
+            <div class="form-outline mb-4">
+              <textarea style={{ width: "200%" }} class="form-control" id="form6Example7" rows="4" placeholder='Explanation'></textarea>
+
+            </div>
 
 
-            <button className='' type="submit" class="btn btn-outline-warning mb-4" >Submit</button>
-          </div>
+            <div class="form-check d-flex justify-content-center mb-4">
+
+
+              <button className='' type="submit" class="btn btn-outline-warning mb-4" >Submit</button>
+            </div>
 
 
 
-        </form>
+          </form>
+        </div>
       </div>
 
       <Footer />

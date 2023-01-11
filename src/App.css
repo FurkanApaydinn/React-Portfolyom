@@ -292,13 +292,18 @@ Footer
   margin-top: 50px;
   display: flex;
   justify-content:center;
-  min-height: 80vh;
-  max-width: 300vh;
+  align-items: center;
+  
+ 
+}
+.contacts{
+  min-height: 100vh;
 }
 .baslik{
   margin-top: 50px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .baslikabout{
@@ -340,7 +345,7 @@ Footer
    
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 1770px) {
     .Certificate {
     display: flex;
     justify-content: center;
@@ -354,5 +359,12 @@ Footer
 .card-body{
   overflow-wrap: break-word;
 }
-
+@media only screen and (max-width: 1770px) {
+    .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+  }
 
