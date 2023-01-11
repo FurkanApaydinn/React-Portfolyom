@@ -8,7 +8,7 @@ export default function Projects() {
     <div>
       <Header />
       <div className='Certificates '>
-        <h1 className=' d-flex justify-content-center'>Certificates</h1>
+        <h1 className='certificat d-flex justify-content-center '>Certificates</h1>
         <div class=" Certificate d-flex justify-content-center ">
 
           <div class="card me-4 " style={{ width: "18rem", height: "18rem" }}>

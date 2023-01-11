@@ -12,7 +12,7 @@ export default function Header() {
 
       <img className='logo' src={logo} alt="" />
      </a>
-     <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" >
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
      </button>
      <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -29,12 +29,12 @@ export default function Header() {
 
        </li>
 
-
        <li>
         <Link className="nav-link active" aria-current="page" to="/Contact">Contact</Link>
        </li>
       </ul>
-
+      <input style={{ width: "500px", backgroundColor: "#FFFAEB" }} className="form-control me-2   " type="search" placeholder='Search' />
+      <button className="btn btn-outline-warning" type="submit" >Search</button>
      </div>
     </div>
    </nav>

@@ -323,7 +323,12 @@ Footer
   
 } */
 .Certificates{
-  min-height: 100vh
+  min-height: 100vh;
+
+}
+.Certificate{
+  margin-top: 8em;
+
 }
 
 .card:hover{
@@ -335,7 +340,7 @@ Footer
    
 }
 
-@media only screen and (max-width: 1700px) {
+@media only screen and (max-width: 770px) {
     .Certificate {
     display: flex;
     justify-content: center;
@@ -345,6 +350,9 @@ Footer
     .card{
       margin-top: 2em;
     }
+}
+.card-body{
+  overflow-wrap: break-word;
 }
 
 
