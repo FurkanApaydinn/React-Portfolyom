@@ -13,7 +13,7 @@ export default function Contact() {
       <div className='contact' >
         <div className='contacts'>
 
-          <form action='mailto:furkan_apydn@hotmail.com'>
+          <form >
             <h6 className='baslik mb-4 justify-content-start'>Benimle iletişime geçebilirsiniz.</h6>
             <div class="form-outline mb-4  ">
               <input style={{ width: "200%" }} type="text" id="form6Example3" class="form-control" placeholder='Name' required />
@@ -47,7 +47,7 @@ export default function Contact() {
             <div class="form-check d-flex justify-content-center mb-4">
 
 
-              <button className='' type="submit" class="btn btn-outline-warning mb-4" >Submit</button>
+              <button onClick={"mailto:furkan_apydn@hotmail.com"} className='' type="submit" class="btn btn-outline-warning mb-4" >Submit</button>
             </div>
 
 
