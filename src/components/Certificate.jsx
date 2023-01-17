@@ -13,10 +13,10 @@ export default function Projects() {
 
           <div class="card me-4 " style={{ width: "18rem", height: "18rem" }}>
             <div class="card-body ">
-              <h5 class="card-title mt-1 " >Uluslararası İş Analizi Metodolojisi ve Teknikleri</h5>
+              <h5 class="card-title mt-1 " >Microsoft Project ile Proje Yönetimi</h5>
               <h6 class="card-subtitle mt-2 text-muted" style={{ fontWeight: "bold" }}>BTK Akademi</h6>
-              <p class="card-text mt-2">Analiz dokümanı, Gereksinim analizleri vs. konularının detaylı olarak anlatıldığı bir eğitim.</p>
-              <a href="https://drive.google.com/file/d/1oeAtfPyrim5fkzTIZfEKYcM1RBBJEO4W/view?usp=sharing" className="card-link mt-1" >certificate Link</a>
+              <p class="card-text mt-2">Microsoft Project Uygulaması detaylı olarak anlatıldığı bir eğitim.</p>
+              <a href="https://drive.google.com/drive/folders/1JOeh_UGj8_hfuguLOy_YTzcwwuuokLwy" className="card-link mt-1" >certificate Link</a>
 
             </div>
           </div>
