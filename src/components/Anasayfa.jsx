@@ -237,7 +237,7 @@ function Anasayfa() {
               </article>
 
               <article class="timeline-item">
-                <h4>2016 - 2018</h4>
+                <h4>2018 - 2019</h4>
                 <h4 style={{ fontWeight: "bold" }} >Bahçeşehir Eğitim Kurumları A.Ş</h4>
                 <h4  >Bilişim Teknolojileri Bölüm Başkanı</h4>
                 <p style={{ fontWeight: "normal" }}>
