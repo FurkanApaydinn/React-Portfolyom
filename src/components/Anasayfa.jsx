@@ -228,7 +228,7 @@ function Anasayfa() {
                   geliştirme sonrası kullanıcı testlerini
                   gerçekleştirmek ve süreci canlıya alınmasını
                   sağlamak, kullanıcı dokümanı hazırlayarak
-                  Öğretmen - Öğrenci ve Veli saha eğitimlerini
+                  Öğretmen - Öğrenci ve Veli saha eğitimlerini.
                   tamamlamak.
                 </h5>
                 <span class="number">
